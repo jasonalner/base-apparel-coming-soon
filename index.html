@@ -21,35 +21,37 @@
       <article id="coming-soon">
         <img id="base-apparel-logo" src="images/logo.svg">
         <img id="mobile-img" src="images/hero-mobile.jpg">
-        <h1>We're<span><br> coming <br>soon</span></h1>
-        <p>Hello fellow shoppers! We're currently building our new fashion store.
+        <h1 >We're<span><br> coming <br>soon</span></h1>
+        <p id="intro-text" >Hello fellow shoppers! We're currently building our new fashion store.
           Add your email below to stay up-to-date with announcements and our launch deals.
         </p>
         
-        <form>
-          <input type="email" placeholder="Email Address"/><img id="error-icon" src="images/icon-error.svg">
-          <button><img id="arrow" src="/images/icon-arrow.svg"></button>  
+        <form id="form" action="#">
+          <input id="input" type="text" name="mail" placeholder="Email Address" onkeydown="validation()"/><img id="error-icon" src="images/icon-error.svg">
+          <button type="submit"><img id="arrow" src="/images/icon-arrow.svg"></button>  
   
         </form>          
         <p id="error-msg">Please enter a valid email.</p>
-
         <p class="attribution">
           Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-          Coded by <a href="#">Jason Alner</a>.
+          Coded by <a href="https://github.com/jasonalner/">Jason Alner</a>.
         </p>
+        
       </article>
+      
       <div id="image">
       </div>
+      
     </main>
     <aside class="hero-image">
   
     </aside>
-  
   </div>
-  
-  
+
   <footer>
     
   </footer>
+  
 </body>
+<script type="text/javascript" src="script.js"></script>
 </html>
